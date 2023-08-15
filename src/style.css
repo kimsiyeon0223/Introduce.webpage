@@ -6,12 +6,19 @@
     font-family: 'Tinos', serif;
 }
 
+body {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    /* y 축 방향으로만 scroll snap 적용 */
+}
+
 /*Home*/
 #Home {
     width: 100vw;
     height: 46vw;
     background-color: #8294C4;
-
+    scroll-snap-align: start;
+    /* 스크롤 위치 맞춤 */
 }
 
 nav {
@@ -86,6 +93,8 @@ ul {
     width: 100vw;
     height: 46vw;
     background-color: #DBDFEA;
+    scroll-snap-align: start;
+    /* 스크롤 위치 맞춤 */
 }
 
 .a {
@@ -161,6 +170,8 @@ ul {
     width: 100vw;
     height: 46vw;
     background-color: #ACB1D6;
+    scroll-snap-align: start;
+    /* 스크롤 위치 맞춤 */
 }
 
 .w {
@@ -203,6 +214,8 @@ ul {
     width: 100vw;
     height: 46vw;
     background-color: #FFEAD2;
+    scroll-snap-align: start;
+    /* 스크롤 위치 맞춤 */
 }
 
 .c {
